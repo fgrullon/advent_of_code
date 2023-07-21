@@ -12,7 +12,6 @@ function read(input) {
 
 fs.readFile("./input.txt", "utf8", async (err, data) => {
   const result = await read(data);
-  console.log(result);
 });
 
 // Test Part 1
